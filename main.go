@@ -192,7 +192,6 @@ var (
 	whiteListCommits  map[string]bool
 	whiteListBranches []string
 	whiteListRepos    []string
-	fileDiffRegex     *regexp.Regexp
 	sshAuth           *ssh.PublicKeys
 	dir               string
 	maxGo             int
